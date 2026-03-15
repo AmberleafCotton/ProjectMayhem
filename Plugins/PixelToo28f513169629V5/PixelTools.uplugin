@@ -1,0 +1,52 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "2 ANY",
+	"FriendlyName": "Pixel Tools",
+	"Description": "Adds a pixel perfect Camera that disables the effect of pixel distortion, provides TRUE pixelation.",
+	"Category": "Pixelation",
+	"CreatedBy": "Michael B. (Turbomorsh)",
+	"CreatedByURL": "https://www.youtube.com/channel/UCYB6ApDTCJsjrMWpFbNyvbQ",
+	"DocsURL": "https://youtu.be/hegrCyP01Gc",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/32fd29e6566d4e84beafaf3726480108",
+	"SupportURL": "https://discord.gg/E34MweDABv",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64",
+		"Android",
+		"Linux",
+		"LinuxArm64"
+	],
+	"Modules": [
+		{
+			"Name": "PixelToolsEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		},
+		{
+			"Name": "PixelToolsRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android",
+				"IOS"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Paper2D",
+			"Enabled": true
+		}
+	]
+}
